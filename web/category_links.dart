@@ -1,9 +1,9 @@
 
-#import('dart:html');
-#import('dart:uri');
+import 'dart:html';
+import 'dart:uri';
 
-#import('package:dartlero/dartlero.dart');
-#import('package:dartlero_category_links/dartlero_category_links.dart');
+import 'package:dartlero/dartlero.dart';
+import 'package:dartlero_category_links/dartlero_category_links.dart';
 
 display(Categories categories) {
   String list = '';

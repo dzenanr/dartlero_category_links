@@ -1,9 +1,9 @@
 
-#import('dart:uri');
+import 'dart:uri';
 
-#import('package:unittest/unittest.dart');
-#import('package:dartlero/dartlero.dart');
-#import('package:dartlero_category_links/dartlero_category_links.dart');
+import 'package:unittest/unittest.dart';
+import 'package:dartlero/dartlero.dart';
+import 'package:dartlero_category_links/dartlero_category_links.dart';
 
 testCategories(Categories categories) {
   group("Testing Categories", () {

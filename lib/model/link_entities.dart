@@ -1,3 +1,4 @@
+part of dartlero_category_links;
 
 class Link extends ConceptEntity<Link> {
 
