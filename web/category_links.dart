@@ -21,7 +21,7 @@ display(Categories categories) {
     }
   }
   // the HTML library defines a global "document" variable
-  document.query('#links').innerHTML = list;
+  document.query('#links').innerHtml = list;
 }
 
 void main() {

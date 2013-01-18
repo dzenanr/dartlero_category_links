@@ -5,5 +5,6 @@ version: 0.0.2
 description:
   A model with 2 concepts that uses Dartlero.
 dependencies:
+  browser: any
   dartlero:
     git: git://github.com/dzenanr/dartlero.git
