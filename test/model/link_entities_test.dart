@@ -12,7 +12,7 @@ testCategoryLinks(Category category) {
     });
     tearDown(() {
       category.links.clear();
-      expect(category.links.empty, isTrue);
+      expect(category.links.isEmpty, isTrue);
     });
     test('Add Category Link', () {
       var link = new Link();

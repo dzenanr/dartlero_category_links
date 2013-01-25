@@ -12,7 +12,7 @@ testCategories(Categories categories) {
     });
     tearDown(() {
       categories.clear();
-      expect(categories.empty, isTrue);
+      expect(categories.isEmpty, isTrue);
     });
     test('Add Category', () {
       var category = new Category();
