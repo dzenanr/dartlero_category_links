@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>Categories</title>
+    <link rel="components" href="../link/link_table.html">
   </head>
   <body>
     <element name="category-table" extends="span">
@@ -13,14 +14,19 @@
           <tr>
             <th>Name</th>
             <th>Description</th>
+            <th>Show</th>
           </tr>
           <tbody template iterate="category in categories.toList()">
             <tr>
               <td>{{ category.code }}</td>
               <td>{{ category.description }}</td>
+              <td><button on-click="showLinks({{ category }})">Links</button></td>
             </tr>
           </tbody>
         </table>
+        <div template if="showCategoryLinks">
+          <link-table links ="{{ category.links }}"></link-table>
+        </div>
       </template>
       <script type="application/dart" src="category_table.dart"></script>
     </element>

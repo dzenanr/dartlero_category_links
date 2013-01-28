@@ -151,3 +151,287 @@ build.dart --changed=doc\git\github.txt
 
 build.dart finished [358 ms]
 
+---
+build.dart --changed=web\component\category\category_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 293 ms
+build.dart finished [691 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [352 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 259 ms
+build.dart finished [636 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [334 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/link/category-links.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/component/link/category-links.html' (OS Error: Le fichier spécifié est introuvable.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  -- 316 ms
+build.dart finished [755 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [369 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/link/category-links.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/component/link/category-links.html' (OS Error: Le fichier spécifié est introuvable.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  -- 440 ms
+build.dart finished [868 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [413 ms]
+
+---
+build.dart --changed=web\component\link\category_table.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/link/category-links.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/component/link/category-links.html' (OS Error: Le fichier spécifié est introuvable.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  -- 306 ms
+build.dart finished [679 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [570 ms]
+
+---
+build.dart --changed=web\component\link\category_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/link/category-links.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/component/link/category-links.html' (OS Error: Le fichier spécifié est introuvable.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  -- 385 ms
+build.dart finished [844 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [694 ms]
+
+---
+build.dart --changed=web\component\link\category_links_table.dart --removed=web\component\link\category_table.d...
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/link/category-links.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/component/link/category-links.html' (OS Error: Le fichier spécifié est introuvable.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  -- 248 ms
+build.dart finished [557 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [400 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/link/category-links-table.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/component/link/category-links-table.html' (OS Error: Le fichier spécifié est introuvable.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  -- 416 ms
+build.dart finished [871 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [422 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/link/category-links-table.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/component/link/category-links-table.html' (OS Error: Le fichier spécifié est introuvable.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  -- 314 ms
+build.dart finished [698 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [341 ms]
+
+---
+build.dart --changed=web\component\category\category_table.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/link/category-links-table.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/component/link/category-links-table.html' (OS Error: Le fichier spécifié est introuvable.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  -- 350 ms
+build.dart finished [753 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [380 ms]
+
+---
+build.dart --changed=web\component\link\category_links_table.html --removed=web\component\link\category_table.h...
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/link/category-links-table.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/component/link/category-links-table.html' (OS Error: Le fichier spécifié est introuvable.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  -- 249 ms
+build.dart finished [599 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [336 ms]
+
+---
+build.dart --changed=web\component\link\category_links_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/link/category-links-table.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/component/link/category-links-table.html' (OS Error: Le fichier spécifié est introuvable.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  -- 408 ms
+build.dart finished [757 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [424 ms]
+
+---
+build.dart --changed=web\component\link\category_links_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/link/category-links-table.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/component/link/category-links-table.html' (OS Error: Le fichier spécifié est introuvable.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  -- 398 ms
+build.dart finished [786 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [334 ms]
+
+---
+build.dart --changed=web\component\link\category_links_table.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/link/category-links-table.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/component/link/category-links-table.html' (OS Error: Le fichier spécifié est introuvable.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  -- 370 ms
+build.dart finished [832 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [362 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/link/link-table.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/component/link/link-table.html' (OS Error: Le fichier spécifié est introuvable.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  -- 373 ms
+build.dart finished [735 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [341 ms]
+
+---
+build.dart --changed=web\component\link\link_table.dart --removed=web\component\link\category_links_table.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/link/link-table.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/component/link/link-table.html' (OS Error: Le fichier spécifié est introuvable.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  -- 435 ms
+build.dart finished [900 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [475 ms]
+
+---
+build.dart --changed=web\component\category\category_table.dart --changed=web\component\link\link_table.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/link/link-table.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/component/link/link-table.html' (OS Error: Le fichier spécifié est introuvable.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  -- 364 ms
+build.dart finished [722 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [367 ms]
+
+---
+build.dart --changed=web\component\link\link_table.html --removed=web\component\link\category_links_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/link/link-table.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/component/link/link-table.html' (OS Error: Le fichier spécifié est introuvable.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  -- 247 ms
+build.dart finished [612 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [398 ms]
+
+---
+build.dart --changed=web\component\category\category_table.dart
+
+build.dart finished [394 ms]
+
+---
+build.dart --changed=web\component\category\category_table.dart
+
+build.dart finished [738 ms]
+
+---
+build.dart --changed=web\component\category\category_table.dart
+
+build.dart finished [300 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+
+build.dart finished [398 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+
+build.dart finished [376 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+
+build.dart finished [330 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+
+build.dart finished [340 ms]
+
+---
+build.dart --changed=web\component\category\category_table.dart
+
+build.dart finished [276 ms]
+
+---
+build.dart --changed=web\component\category\category_table.dart
+
+build.dart finished [292 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+
+build.dart finished [317 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+
+build.dart finished [357 ms]
+
+---
+build.dart --changed=web\component\link\link_table.html
+
+build.dart finished [355 ms]
+
+---
+build.dart --removed=web\out\component\category\category_table.dart
+
+build.dart finished [466 ms]
+
+---
+build.dart --removed=web\out\category_links.dart
+
+build.dart finished [517 ms]
+

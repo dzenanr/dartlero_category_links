@@ -1,5 +1,7 @@
+.buildlog
 .children
 packages
+web/out
 *.js
 *.js.deps
 *.js.map

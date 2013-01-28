@@ -3,4 +3,12 @@ import 'package:web_ui/web_ui.dart';
 
 class CategoryTable extends WebComponent {
   Categories categories;
+  Category category;
+
+  bool showCategoryLinks = false;
+
+  showLinks(Category category) {
+    this.category = category;
+    showCategoryLinks = true;
+  }
 }
