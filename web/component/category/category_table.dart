@@ -6,9 +6,9 @@ class CategoryTable extends WebComponent {
   Category category;
 
   bool showCategoryLinks = false;
-
-  showLinks(Category category) {
-    this.category = category;
+  
+  showLinks(category) {
     showCategoryLinks = true;
+    this.category = category;
   }
 }

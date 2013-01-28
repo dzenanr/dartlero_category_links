@@ -30,5 +30,14 @@
     margin-left: 2px;
     margin-right: 2px;
   }
+  
+  .page-title {
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    padding: 12px;
+    background: #4b91d1;
+  }
 
 /* ===[ end ]=== */
