@@ -1,0 +1,153 @@
+---
+build.dart 
+
+build.dart finished [320 ms]
+
+---
+build.dart --changed=README.md
+
+build.dart finished [328 ms]
+
+---
+build.dart --changed=README.md
+
+build.dart finished [391 ms]
+
+---
+build.dart --changed=pubspec.lock
+
+build.dart finished [206 ms]
+
+---
+build.dart --changed=web\category_links.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":17,"charStart":343,"charEnd":395}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":22,"charStart":548,"charEnd":559}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"Unexpected end tag (template). Ignored.","line":22,"charStart":548,"charEnd":559}}]
+[{"method":"error","params":{"file":"web/component/category/category_table.dart","message":"please provide a class definition for CategoryTable:\n class categoryTable extends WebComponent {\r\n  Categories categories;\r\n}","line":9,"charStart":113,"charEnd":159}}]
+Total time spent on web/category_links.html                  -- 328 ms
+build.dart finished [954 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [338 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/component/category/category_table.dart","message":"please provide a class definition for CategoryTable:\n class categoryTable extends WebComponent {\r\n  Categories categories;\r\n}","line":9,"charStart":113,"charEnd":159}}]
+Total time spent on web/category_links.html                  -- 289 ms
+build.dart finished [786 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [369 ms]
+
+---
+build.dart --changed=web\component\category\category_table.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 351 ms
+build.dart finished [831 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [869 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 254 ms
+build.dart finished [688 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [387 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 240 ms
+build.dart finished [661 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [355 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 287 ms
+build.dart finished [680 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [308 ms]
+
+---
+build.dart --changed=web\component\category\category_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 226 ms
+build.dart finished [631 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [370 ms]
+
+---
+build.dart --changed=web\css\img\arrow-right.gif --changed=web\css\img\target.gif
+
+build.dart finished [326 ms]
+
+---
+build.dart --changed=web\css\link.css --changed=web\css\list.css --changed=web\css\marker.css --changed=web\css...
+
+build.dart finished [329 ms]
+
+---
+build.dart --changed=web\css\table.css
+
+build.dart finished [413 ms]
+
+---
+build.dart --changed=web\category_links.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 368 ms
+build.dart finished [869 ms]
+
+---
+build.dart --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\out\catego...
+
+build.dart finished [497 ms]
+
+---
+build.dart --removed=web\category_links.dart.js --removed=web\category_links.dart.js.deps --removed=web\categor...
+
+build.dart finished [264 ms]
+
+---
+build.dart --removed=web\category_links.css
+
+build.dart finished [353 ms]
+
+---
+build.dart --changed=doc\git\github.txt
+
+build.dart finished [319 ms]
+
+---
+build.dart --changed=pubspec.yaml
+
+build.dart finished [235 ms]
+
+---
+build.dart --changed=doc\git\github.txt
+
+build.dart finished [358 ms]
+
