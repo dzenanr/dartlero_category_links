@@ -7,7 +7,7 @@
     <link rel="components" href="../link/link_table.html">
   </head>
   <body>
-    <element name="category-table" extends="span">
+    <element name="x-category-table" extends="span">
       <template>
         <table>
           <caption>Categories</caption>
@@ -25,7 +25,7 @@
           </tbody>
         </table>
         <div template if="showCategoryLinks">
-          <link-table links ="{{ category.links }}"></link-table>
+          <x-link-table links ="{{ category.links }}"></x-link-table>
         </div>
       </template>
       <script type="application/dart" src="category_table.dart"></script>

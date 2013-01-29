@@ -765,3 +765,105 @@ build.dart --changed=web\css\page.css
 
 build.dart finished [315 ms]
 
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"error","params":{"file":"web/category_links.html","message":"exception while reading file, original message:\n AsyncError: ''package:html5lib/dom.dart': Error: line 91 pos 51: type 'LinkedHashMap' is not loaded\n  LinkedHashMap<dynamic, String> attributes = new LinkedHashMap();\n                                                  ^\nmalformed type used.'\nStack trace:\n#0      Node.Node (package:html5lib/dom.dart:91:51)\n#1      Document.Document (package:html5lib/dom.dart:313:16)\n#2      TreeBuilder.reset (package:html5lib/src/treebuilder.dart:100:16)\n#3      TreeBuilder.TreeBuilder (package:html5lib/src/treebuilder.dart:87:10)\n#4      HtmlParser.HtmlParser (package:html5lib/parser.dart:148:38)\n#5      parseHtml (package:web_ui/src/compiler.dart:34:16)\n#6      Compiler._parseHtmlFile.<anonymous closure>.<anonymous closure> (package:web_ui/src/compiler.dart:165:28)\n#7      time (package:web_ui/src/utils.dart:38:24)\n#8      Compiler._time (package:web_ui/src/compiler.dart:297:16)\n#9      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:164:32)\n#10     _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/category_links.html                  --  52 ms
+build.dart finished [642 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [337 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [341 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [373 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 221 ms
+build.dart finished [455 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [936 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [358 ms]
+
+---
+build.dart --machine --changed=web\category_links.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 310 ms
+build.dart finished [668 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [345 ms]
+
+---
+build.dart --machine --changed=web\component\category\category_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 498 ms
+build.dart finished [1511 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [377 ms]
+
+---
+build.dart --machine --changed=web\component\category\category_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 676 ms
+build.dart finished [1470 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [284 ms]
+
+---
+build.dart --machine --changed=web\component\link\link_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 334 ms
+build.dart finished [767 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [406 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [348 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [229 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [206 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [480 ms]
+
