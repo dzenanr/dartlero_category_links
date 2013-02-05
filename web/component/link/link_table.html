@@ -4,14 +4,21 @@
   <head>
     <meta charset="utf-8">
     <title>Links</title>
+    <link rel="components" href="link_add.html">
   </head>
   <body>
     <element name="x-link-table" extends="span">
       <template>
+        <div template if="showLinkAdd">
+          <x-link-add links ="{{ links }}"></x-link-add>
+        </div>
         <table>
-          <caption>Links</caption>
+          <caption>
+            Links
+            <button id="addLinkButton" on-click="add()">Show Add</button>
+          </caption>
           <tr>
-            <th>Link</th>
+            <th>Web Link</th>
             <th>Description</th>
           </tr>
           <tbody template iterate="link in links.toList()">

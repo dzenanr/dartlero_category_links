@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Category Add</title>
+  </head>
+  <body>
+    <element name="x-category-add" extends="span">
+      <template>
+        <div>
+          <br/>
+          <label for="category-code">Name</label>
+          <input id="category-code" type="text" size="32"/>
+          <br/>
+          <label for="category-description">Description</label>
+          <input id="category-description" type="text" size="64"/>
+          <br/>
+          <button on-click="add()">Add</button>
+          <label id="category-message" class="marker"></label>
+        </div>
+      </template>
+      <script type="application/dart" src="category_add.dart"></script>
+    </element>
+  </body>
+</html>

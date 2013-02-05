@@ -4,13 +4,20 @@
   <head>
     <meta charset="utf-8">
     <title>Categories</title>
+    <link rel="components" href="category_add.html">
     <link rel="components" href="../link/link_table.html">
   </head>
   <body>
     <element name="x-category-table" extends="span">
       <template>
+        <div template if="showCategoryAdd">
+          <x-category-add categories ="{{ categories }}"></x-category-add>
+        </div>
         <table>
-          <caption>Categories</caption>
+          <caption>
+            Categories
+            <button id="addCategoryButton" on-click="add()">Show Add</button>
+          </caption>
           <tr>
             <th>Name</th>
             <th>Description</th>
@@ -24,6 +31,7 @@
             </tr>
           </tbody>
         </table>
+        <br/>
         <div template if="showCategoryLinks">
           <x-link-table links ="{{ category.links }}"></x-link-table>
         </div>

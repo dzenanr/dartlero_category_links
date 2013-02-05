@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Link Add</title>
+  </head>
+  <body>
+    <element name="x-link-add" extends="span">
+      <template>
+        <div>
+          <br/>
+          <label for="link-code">Name</label>
+          <input id="link-code" type="text" size="32"/>
+          <br/>
+          <label for="link-url">Web Link</label>
+          <input id="link-url" type="text" size="96"/>
+          <br/>
+          <label for="link-description">Description</label>
+          <input id="link-description" type="text" size="64"/>
+          <br/>
+          <button on-click="add()">Add</button>
+          <label id="link-message" class="marker"></label>
+        </div>
+      </template>
+      <script type="application/dart" src="link_add.dart"></script>
+    </element>
+  </body>
+</html>
