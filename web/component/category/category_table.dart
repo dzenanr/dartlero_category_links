@@ -5,6 +5,7 @@ import 'package:web_ui/web_ui.dart';
 
 class CategoryTable extends WebComponent {
   Categories categories;
+  Categories ocategories;
   Category category;
 
   bool showCategoryAdd = false;

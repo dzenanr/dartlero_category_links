@@ -23,7 +23,7 @@
             <th>Description</th>
             <th>Show</th>
           </tr>
-          <tbody template iterate="category in categories.toList()">
+          <tbody template iterate="category in ocategories.toList()">
             <tr>
               <td>{{ category.code }}</td>
               <td>{{ category.description }}</td>
@@ -33,7 +33,10 @@
         </table>
         <br/>
         <div template if="showCategoryLinks">
-          <x-link-table links ="{{ category.links }}"></x-link-table>
+          <x-link-table 
+            links="{{ category.links }}" 
+            olinks="{{ category.links.order() }}">
+          </x-link-table>
         </div>
       </template>
       <script type="application/dart" src="category_table.dart"></script>

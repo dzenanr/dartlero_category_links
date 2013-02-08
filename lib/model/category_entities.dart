@@ -25,10 +25,6 @@ class Category extends ConceptEntity<Category> {
   bool get onProgramming =>
       description.contains('Programming') ? true : false;
 
-  int codeCompareTo(Category other) {
-    return code.compareTo(other.code);
-  }
-
 }
 
 class Categories extends ConceptEntities<Category> {

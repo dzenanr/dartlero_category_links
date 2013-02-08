@@ -13,7 +13,9 @@
   <body>
     <div class="page-title">Category Links</div>
 
-    <x-category-table categories ="{{ categories }}"></x-category-table>
+    <x-category-table 
+      categories="{{ categories }}" ocategories="{{ ocategories }}">
+    </x-category-table>
 
     <script type="application/dart" src="category_links.dart"></script>
     <script src="packages/browser/dart.js"></script>

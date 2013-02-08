@@ -5,10 +5,13 @@ import 'package:unittest/unittest.dart';
 import 'package:dartlero/dartlero.dart';
 import 'package:dartlero_category_links/dartlero_category_links.dart';
 
-testCategories(Categories categories) {
+testCategories() {
+  Categories categories;
   group("Testing Categories", () {
     setUp(() {
-
+      CategoryLinksModel categoryLinksModel = new CategoryLinksModel();
+      categoryLinksModel.init();
+      categories = categoryLinksModel.categories;
     });
     tearDown(() {
       categories.clear();
@@ -20,19 +23,19 @@ testCategories(Categories categories) {
       categories.add(category);
       categories.display('Add Category');
     });
+    test('Order Categories', () {
+      Categories categoriesOrderedByCode = categories.order();
+      categoriesOrderedByCode.display('Categories Ordered by Code');
+    });
   });
 }
 
-initDisplayModel() {
+initModel() {
   CategoryLinksModel categoryLinksModel = new CategoryLinksModel();
   categoryLinksModel.init();
-  categoryLinksModel.display();
+  //categoryLinksModel.display();
 }
 
 main() {
-  initDisplayModel();
-
-  CategoryLinksModel categoryLinksModel = new CategoryLinksModel();
-  Categories categories = categoryLinksModel.categories;
-  testCategories(categories);
+  testCategories();
 }
