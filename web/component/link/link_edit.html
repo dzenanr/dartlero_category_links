@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Link Edit</title>
+  </head>
+  <body>
+    <element name="x-link-edit" extends="span">
+      <template>
+        <div>
+          <br/>
+          <span class="marker">Link of {{ category.code }} category</span>
+          <br/><br/>
+          <span>Name: {{ link.code }}</span>
+          <br/>
+          <label for="link-url">Web Link</label>
+          <input id="link-url" 
+            type="text" size="96" value="{{ link.url.toString() }}"
+          />
+          <br/>
+          <label for="link-description">Description</label>
+          <input id="link-description" 
+            type="text" size="64" value="{{ link.description }}"
+          />
+          <br/>
+          <button on-click="update()">Update</button>
+          <label id="link-message" class="marker"></label>
+        </div>
+      </template>
+      <script type="application/dart" src="link_edit.dart"></script>
+    </element>
+  </body>
+</html>

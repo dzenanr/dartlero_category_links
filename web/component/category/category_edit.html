@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Category Edit</title>
+  </head>
+  <body>
+    <element name="x-category-edit" extends="span">
+      <template>
+        <div>
+          <br/>
+          <span>Name: {{ category.code }}</span>
+          <br/>
+          <label for="category-description">Description</label>
+          <input id="category-description" 
+            type="text" size="64" value="{{ category.description }}"
+          />
+          <br/>
+          <button on-click="update()">Update</button>
+        </div>
+      </template>
+      <script type="application/dart" src="category_edit.dart"></script>
+    </element>
+  </body>
+</html>

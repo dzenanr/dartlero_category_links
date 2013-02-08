@@ -4,10 +4,13 @@ import 'package:dartlero_category_links/dartlero_category_links.dart';
 import 'package:web_ui/web_ui.dart';
 
 class LinkTable extends WebComponent {
+  Category category;
   Links links;
   Links olinks;
+  Link link;
   
   bool showLinkAdd = false;
+  bool showLinkEdit = false;
   
   add() {
     ButtonElement addLink = query("#addLinkButton");
@@ -18,6 +21,17 @@ class LinkTable extends WebComponent {
       showLinkAdd = false;
       addLink.text = 'Show Add';
     }
+  }
+  
+  edit(link) {
+    showLinkEdit = true;
+    this.link = link;
+  }
+  
+  delete(link) {
+    links.remove(link);
+    olinks = links.order();
+    this.link = null;
   }
   
 }

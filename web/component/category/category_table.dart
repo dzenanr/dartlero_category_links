@@ -9,6 +9,7 @@ class CategoryTable extends WebComponent {
   Category category;
 
   bool showCategoryAdd = false;
+  bool showCategoryEdit = false;
   bool showCategoryLinks = false;
   
   add() {
@@ -20,6 +21,17 @@ class CategoryTable extends WebComponent {
       showCategoryAdd = false;
       addCategory.text = 'Show Add';
     }
+  }
+  
+  edit(category) {
+    showCategoryEdit = true;
+    this.category = category;
+  }
+  
+  delete(category) {
+    categories.remove(category);
+    ocategories = categories.order();
+    this.category = null;
   }
   
   showLinks(category) {

@@ -5,13 +5,20 @@
     <meta charset="utf-8">
     <title>Categories</title>
     <link rel="components" href="category_add.html">
+    <link rel="components" href="category_edit.html">
     <link rel="components" href="../link/link_table.html">
   </head>
   <body>
     <element name="x-category-table" extends="span">
       <template>
         <div template if="showCategoryAdd">
-          <x-category-add categories ="{{ categories }}"></x-category-add>
+          <x-category-add categories="{{ categories }}"></x-category-add>
+        </div>
+        <div template if="showCategoryEdit">
+          <x-category-edit 
+            categories="{{ categories }}"
+            category="{{ category }}">
+          </x-category-edit>
         </div>
         <table>
           <caption>
@@ -21,12 +28,18 @@
           <tr>
             <th>Name</th>
             <th>Description</th>
+            <th>Edit</th>
+            <th>Remove</th>
             <th>Show</th>
           </tr>
           <tbody template iterate="category in ocategories.toList()">
             <tr>
               <td>{{ category.code }}</td>
               <td>{{ category.description }}</td>
+              <td><button id="editCategoryButton" on-click="edit(category)">
+                Edit</button>
+              </td>
+              <td><button on-click="delete(category)">Remove</button></td>
               <td><button on-click="showLinks(category)">Links</button></td>
             </tr>
           </tbody>
@@ -34,6 +47,7 @@
         <br/>
         <div template if="showCategoryLinks">
           <x-link-table 
+            category="{{ category }}"
             links="{{ category.links }}" 
             olinks="{{ category.links.order() }}">
           </x-link-table>
