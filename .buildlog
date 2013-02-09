@@ -4695,3 +4695,28 @@ build.dart --machine --changed=web\css\input.css
 
 build.dart finished [557 ms]
 
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [363 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [282 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [242 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [292 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [251 ms]
+
