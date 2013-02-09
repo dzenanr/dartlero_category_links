@@ -10,7 +10,8 @@
       <template>
         <div>
           <br/>
-          <label>Name</label> {{ category.code }}
+          <label>Name</label>
+          <input readonly="true" value="{{ category.code }}"/>
           <br/>
           <label for="edit-category-description">Description</label>
           <input id="edit-category-description"

@@ -4636,3 +4636,62 @@ build.dart --machine --changed=web\out\category_links.dart --changed=web\out\cat
 
 build.dart finished [641 ms]
 
+---
+build.dart --machine --changed=web\component\category\category_edit.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"warning","params":{"file":"web/component/category/category_edit.html","message":"Unexpected end tag (input). Ignored.","line":14,"charStart":293,"charEnd":301}}]
+Total time spent on web/category_links.html                  -- 533 ms
+build.dart finished [939 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [334 ms]
+
+---
+build.dart --machine --changed=web\component\category\category_edit.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 372 ms
+build.dart finished [950 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [338 ms]
+
+---
+build.dart --machine --changed=web\component\link\link_edit.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 438 ms
+build.dart finished [1049 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [388 ms]
+
+---
+build.dart --machine --changed=web\css\marker.css
+
+build.dart finished [333 ms]
+
+---
+build.dart --machine --changed=web\css\table.css
+
+build.dart finished [269 ms]
+
+---
+build.dart --machine --changed=web\css\table.css
+
+build.dart finished [290 ms]
+
+---
+build.dart --machine --changed=web\css\table.css
+
+build.dart finished [284 ms]
+
+---
+build.dart --machine --changed=web\css\input.css
+
+build.dart finished [557 ms]
+
