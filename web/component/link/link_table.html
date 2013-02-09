@@ -11,13 +11,13 @@
     <element name="x-link-table" extends="span">
       <template>
         <div template if="showLinkAdd">
-          <x-link-add 
+          <x-link-add
             category="{{ category }}"
             links="{{ links }}">
           </x-link-add>
         </div>
         <div template if="showLinkEdit">
-          <x-link-edit 
+          <x-link-edit
             category="{{ category }}"
             links="{{ links }}"
             link="{{ link }}">
@@ -34,7 +34,7 @@
             <th>Edit</th>
             <th>Remove</th>
           </tr>
-          <tbody template iterate="link in olinks.toList()">
+          <tbody template iterate="link in links.toList()">
             <tr>
               <td>
                 <a href="{{ link.url }}">

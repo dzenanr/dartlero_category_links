@@ -5,13 +5,12 @@ import 'package:web_ui/web_ui.dart';
 
 class CategoryTable extends WebComponent {
   Categories categories;
-  Categories ocategories;
   Category category;
 
   bool showCategoryAdd = false;
   bool showCategoryEdit = false;
   bool showCategoryLinks = false;
-  
+
   add() {
     ButtonElement addCategory = query("#addCategoryButton");
     if (addCategory.text == 'Show Add') {
@@ -22,21 +21,20 @@ class CategoryTable extends WebComponent {
       addCategory.text = 'Show Add';
     }
   }
-  
+
   edit(category) {
     showCategoryEdit = true;
     this.category = category;
   }
-  
+
   delete(category) {
     categories.remove(category);
-    ocategories = categories.order();
-    this.category = null;
+    //this.category = null;
   }
-  
+
   showLinks(category) {
     showCategoryLinks = true;
     this.category = category;
   }
-  
+
 }

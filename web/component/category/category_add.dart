@@ -7,9 +7,9 @@ class CategoryAdd extends WebComponent {
   Categories categories;
 
   add() {
-    InputElement code = query("#category-code");
-    InputElement description = query("#category-description");
-    LabelElement message = query("#category-message");
+    InputElement code = query("#add-category-code");
+    InputElement description = query("#add-category-description");
+    LabelElement message = query("#add-category-message");
     var error = false;
     message.text = '';
     if (code.value.trim() == '') {
@@ -23,7 +23,7 @@ class CategoryAdd extends WebComponent {
       if (categories.add(category)) {
         message.text = 'added';
         var categoryTable = document.query('x-category-table').xtag;
-        categoryTable.ocategories = categories.order();
+        categoryTable.categories.order();
       } else {
         message.text = 'category name already in use';
       }

@@ -8,11 +8,10 @@ class CategoryEdit extends WebComponent {
   Category category;
 
   update() {
-    InputElement description = query("#category-description"); 
+    InputElement description = query("#edit-category-description");
     category.description = description.value;
     var categoryTable = document.query('x-category-table').xtag;
     categoryTable.showCategoryEdit = false;
-    categoryTable.ocategories = categories.order();
   }
 
 }

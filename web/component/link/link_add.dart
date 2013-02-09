@@ -9,10 +9,10 @@ class LinkAdd extends WebComponent {
   Links links;
 
   add() {
-    InputElement code = query("#link-code");
-    InputElement webLink = query("#link-url");
-    InputElement description = query("#link-description");
-    LabelElement message = query("#link-message");
+    InputElement code = query("#add-link-code");
+    InputElement webLink = query("#add-link-url");
+    InputElement description = query("#add-link-description");
+    LabelElement message = query("#add-link-message");
     var error = false;
     message.text = '';
     if (code.value.trim() == '') {
@@ -32,7 +32,7 @@ class LinkAdd extends WebComponent {
       if (links.add(link)) {
         message.text = 'added';
         var linkTable = document.query('x-link-table').xtag;
-        linkTable.olinks = links.order();
+        linkTable.links.order();
       } else {
         message.text = 'web link name already in use';
       }

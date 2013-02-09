@@ -15,7 +15,7 @@
           <x-category-add categories="{{ categories }}"></x-category-add>
         </div>
         <div template if="showCategoryEdit">
-          <x-category-edit 
+          <x-category-edit
             categories="{{ categories }}"
             category="{{ category }}">
           </x-category-edit>
@@ -32,7 +32,7 @@
             <th>Remove</th>
             <th>Show</th>
           </tr>
-          <tbody template iterate="category in ocategories.toList()">
+          <tbody template iterate="category in categories.toList()">
             <tr>
               <td>{{ category.code }}</td>
               <td>{{ category.description }}</td>
@@ -46,10 +46,10 @@
         </table>
         <br/>
         <div template if="showCategoryLinks">
-          <x-link-table 
+          <x-link-table
             category="{{ category }}"
-            links="{{ category.links }}" 
-            olinks="{{ category.links.order() }}">
+            links="{{ category.links }}"
+          >
           </x-link-table>
         </div>
       </template>

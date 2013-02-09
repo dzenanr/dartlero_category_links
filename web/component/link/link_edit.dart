@@ -10,9 +10,9 @@ class LinkEdit extends WebComponent {
   Link link;
 
   update() {
-    InputElement webLink = query("#link-url");
-    InputElement description = query("#link-description"); 
-    LabelElement message = query("#link-message");
+    InputElement webLink = query("#edit-link-url");
+    InputElement description = query("#edit-link-description");
+    LabelElement message = query("#edit-link-message");
     var error = false;
     message.text = '';
     if (webLink.value.trim() == '') {
@@ -21,10 +21,9 @@ class LinkEdit extends WebComponent {
     }
     if (!error) {
       link.url = new Uri.fromString(webLink.value);
-      link.description = description.value;    
+      link.description = description.value;
       var linkTable = document.query('x-link-table').xtag;
       linkTable.showLinkEdit = false;
-      linkTable.olinks = links.order();
     }
   }
 

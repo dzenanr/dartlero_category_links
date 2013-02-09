@@ -24,8 +24,8 @@ testCategories() {
       categories.display('Add Category');
     });
     test('Order Categories', () {
-      Categories categoriesOrderedByCode = categories.order();
-      categoriesOrderedByCode.display('Categories Ordered by Code');
+      categories.order();
+      categories.display('Categories Ordered by Code');
     });
   });
 }

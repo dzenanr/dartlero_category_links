@@ -13,7 +13,6 @@
   body {
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 12px;
-    background: #f3f7ff;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -30,14 +29,13 @@
     margin-left: 2px;
     margin-right: 2px;
   }
-  
+
   .page-title {
     font-family: arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    color: #000000;
+    color: #003366;;
     padding: 12px;
-    background: #4b91d1;
   }
 
 /* ===[ end ]=== */

@@ -14,18 +14,18 @@
           <br/><br/>
           <span>Name: {{ link.code }}</span>
           <br/>
-          <label for="link-url">Web Link</label>
-          <input id="link-url" 
+          <label for="edit-link-url">Web Link</label>
+          <input id="edit-link-url"
             type="text" size="96" value="{{ link.url.toString() }}"
           />
           <br/>
-          <label for="link-description">Description</label>
-          <input id="link-description" 
+          <label for="edit-link-description">Description</label>
+          <input id="edit-link-description"
             type="text" size="64" value="{{ link.description }}"
           />
           <br/>
           <button on-click="update()">Update</button>
-          <label id="link-message" class="marker"></label>
+          <label id="edit-link-message" class="marker"></label>
         </div>
       </template>
       <script type="application/dart" src="link_edit.dart"></script>

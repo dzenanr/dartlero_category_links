@@ -6,12 +6,11 @@ import 'package:web_ui/web_ui.dart';
 class LinkTable extends WebComponent {
   Category category;
   Links links;
-  Links olinks;
   Link link;
-  
+
   bool showLinkAdd = false;
   bool showLinkEdit = false;
-  
+
   add() {
     ButtonElement addLink = query("#addLinkButton");
     if (addLink.text == 'Show Add') {
@@ -22,16 +21,15 @@ class LinkTable extends WebComponent {
       addLink.text = 'Show Add';
     }
   }
-  
+
   edit(link) {
     showLinkEdit = true;
     this.link = link;
   }
-  
+
   delete(link) {
     links.remove(link);
-    olinks = links.order();
-    this.link = null;
+    //this.link = null;
   }
-  
+
 }

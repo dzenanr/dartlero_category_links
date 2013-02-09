@@ -10,19 +10,19 @@
       <template>
         <div>
           <br/>
-          Link of {{ category.code }} category
+          <span class="marker">Link of {{ category.code }} category</span>
           <br/>
-          <label for="link-code">Name</label>
-          <input id="link-code" type="text" size="32"/>
+          <label for="add-link-code">Name</label>
+          <input id="add-link-code" type="text" size="32"/>
           <br/>
-          <label for="link-url">Web Link</label>
-          <input id="link-url" type="text" size="96"/>
+          <label for="add-link-url">Web Link</label>
+          <input id="add-link-url" type="text" size="96"/>
           <br/>
-          <label for="link-description">Description</label>
-          <input id="link-description" type="text" size="64"/>
+          <label for="add-link-description">Description</label>
+          <input id="add-link-description" type="text" size="64"/>
           <br/>
           <button on-click="add()">Add</button>
-          <label id="link-message" class="marker"></label>
+          <label id="add-link-message" class="marker"></label>
         </div>
       </template>
       <script type="application/dart" src="link_add.dart"></script>
