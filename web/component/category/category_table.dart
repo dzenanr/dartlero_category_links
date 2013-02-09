@@ -29,7 +29,6 @@ class CategoryTable extends WebComponent {
 
   delete(category) {
     categories.remove(category);
-    //this.category = null;
   }
 
   showLinks(category) {

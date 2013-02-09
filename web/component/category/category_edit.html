@@ -10,11 +10,11 @@
       <template>
         <div>
           <br/>
-          <span>Name: {{ category.code }}</span>
+          <label>Name</label> {{ category.code }}
           <br/>
           <label for="edit-category-description">Description</label>
           <input id="edit-category-description"
-            type="text" size="64" value="{{ category.description }}"
+            type="text" size="96" value="{{ category.description }}"
           />
           <br/>
           <button on-click="update()">Update</button>

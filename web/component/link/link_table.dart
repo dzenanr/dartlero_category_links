@@ -29,7 +29,6 @@ class LinkTable extends WebComponent {
 
   delete(link) {
     links.remove(link);
-    //this.link = null;
   }
 
 }

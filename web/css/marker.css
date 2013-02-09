@@ -11,10 +11,11 @@
 
 	.marker {
 		font-family: arial, sans-serif;
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: bold;
 		color: #003366;
 		background: #ffe4b5;
+		padding: 2px;
 	}
 
 /* ===[ end ]=== */

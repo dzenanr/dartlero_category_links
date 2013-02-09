@@ -11,8 +11,8 @@
         <div>
           <br/>
           <span class="marker">Link of {{ category.code }} category</span>
-          <br/><br/>
-          <span>Name: {{ link.code }}</span>
+          <br/>
+          <label>Name</label> {{ link.code }}
           <br/>
           <label for="edit-link-url">Web Link</label>
           <input id="edit-link-url"
@@ -21,11 +21,11 @@
           <br/>
           <label for="edit-link-description">Description</label>
           <input id="edit-link-description"
-            type="text" size="64" value="{{ link.description }}"
+            type="text" size="96" value="{{ link.description }}"
           />
           <br/>
           <button on-click="update()">Update</button>
-          <label id="edit-link-message" class="marker"></label>
+          <span id="edit-link-message"></span>
         </div>
       </template>
       <script type="application/dart" src="link_edit.dart"></script>

@@ -12,7 +12,7 @@ class LinkAdd extends WebComponent {
     InputElement code = query("#add-link-code");
     InputElement webLink = query("#add-link-url");
     InputElement description = query("#add-link-description");
-    LabelElement message = query("#add-link-message");
+    Element message = query("#add-link-message");
     var error = false;
     message.text = '';
     if (code.value.trim() == '') {

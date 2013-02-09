@@ -18,20 +18,20 @@
 
 	caption {
 		font-family: arial, sans-serif;
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: bold;
 		color: #003366;
-		padding: 6px;
+		padding: 3px;
 	}
 
 	th, td {
-		padding: 4px;
-		border-right: 1px solid #999;
-		border-bottom: 1px solid #999;
+		padding: 2px;
+		border-right: 1px solid #999999;
+		border-bottom: 1px solid #999999;
 	}
 
 	th {
-		font-family: Verdana, sans-serif;
+		font-family: verdana, sans-serif;
 		font-weight: bold;
 		color: #ffffff;
 		background: #336799;

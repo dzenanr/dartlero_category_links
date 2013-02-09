@@ -9,7 +9,7 @@ class CategoryAdd extends WebComponent {
   add() {
     InputElement code = query("#add-category-code");
     InputElement description = query("#add-category-description");
-    LabelElement message = query("#add-category-message");
+    Element message = query("#add-category-message");
     var error = false;
     message.text = '';
     if (code.value.trim() == '') {

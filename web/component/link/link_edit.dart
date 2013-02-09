@@ -12,7 +12,7 @@ class LinkEdit extends WebComponent {
   update() {
     InputElement webLink = query("#edit-link-url");
     InputElement description = query("#edit-link-description");
-    LabelElement message = query("#edit-link-message");
+    Element message = query("#edit-link-message");
     var error = false;
     message.text = '';
     if (webLink.value.trim() == '') {
