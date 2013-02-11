@@ -9,7 +9,6 @@ class Category extends ConceptEntity<Category> {
 
   Category copy() {
     Category category = super.copy();
-    category.code = code;
     category.description = description;
     category.links = links.copy();
     return category;
@@ -25,24 +24,14 @@ class Category extends ConceptEntity<Category> {
   Map<String, Object> toJson() {
     Map<String, Object> entityMap = super.toJson();
     entityMap['description'] = description;
-    var entityList = new List<Map<String, Object>>();
-    for (Link link in links) {
-      entityList.add(link.toJson());
-    }
-    entityMap['links'] = entityList;
+    entityMap['links'] = links.toJson();
     return entityMap;
   }
 
   fromJson(Map<String, Object> entityMap) {
     super.fromJson(entityMap);
     description = entityMap['description'];
-    List<Map<String, Object>> entityList = entityMap['links'];
-    links = new Links();
-    for (Map entityMap in entityList) {
-      Link link = new Link();
-      link.fromJson(entityMap);
-      links.add(link);
-    }
+    links.fromJson(entityMap['links']);
   }
 
   bool get onProgramming =>

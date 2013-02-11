@@ -1,8 +1,4 @@
 To Do
 
-+ order categories
-+ order links
 + add category to link
-+ add title to add category (form)
-+ add title to add link (form)
 + note that all ids of all components must be unique within a page

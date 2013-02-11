@@ -17,7 +17,6 @@ testCategoryLinks(Category category) {
       var link = new Link();
       link.code = 'Dart Editor';
       link.url = new Uri.fromString('http://www.dartlang.org/docs/editor/');
-
       category.links.add(link);
       category.links.display('Add Category Link');
     });

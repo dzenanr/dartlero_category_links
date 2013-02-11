@@ -5877,3 +5877,121 @@ build.dart --machine --changed=web\out\category_links.dart --changed=web\out\cat
 
 build.dart finished [1252 ms]
 
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 284 ms
+build.dart finished [501 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [591 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 436 ms
+build.dart finished [891 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [4415 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [507 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.html_bootstrap.dart.js --changed=web\out\category_links.h...
+
+build.dart finished [379 ms]
+
+---
+build.dart --machine --changed=lib\model\category_entities.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 318 ms
+build.dart finished [645 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [513 ms]
+
+---
+build.dart --machine --changed=lib\model\link_entities.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 419 ms
+build.dart finished [836 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [571 ms]
+
+---
+build.dart --machine --changed=lib\model\link_entities.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 311 ms
+build.dart finished [648 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [525 ms]
+
+---
+build.dart --machine --changed=lib\model\category_entities.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 324 ms
+build.dart finished [614 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [355 ms]
+
+---
+build.dart --machine --changed=lib\model\category_entities.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 362 ms
+build.dart finished [1738 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [723 ms]
+
+---
+build.dart --machine --changed=test\model\link_entities_test.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 417 ms
+build.dart finished [891 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [683 ms]
+
+---
+build.dart --machine --changed=doc\todo.txt
+
+build.dart finished [299 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [240 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.html
+
+build.dart finished [356 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html_bootstrap.dart...
+
+build.dart finished [595 ms]
+

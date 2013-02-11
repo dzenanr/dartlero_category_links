@@ -9,7 +9,6 @@ class Link extends ConceptEntity<Link> {
 
   Link copy() {
     Link link = super.copy();
-    link.code = code;
     link.url = url;
     link.description = description;
     return link;
@@ -38,10 +37,6 @@ class Link extends ConceptEntity<Link> {
 
   bool get onProgramming =>
       description.contains('Programming') ? true : false;
-
-  int codeCompareTo(Link other) {
-    return code.compareTo(other.code);
-  }
 
 }
 
