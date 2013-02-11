@@ -1,5 +1,5 @@
 name: dartlero_category_links
-version: 0.0.5
+version: 0.0.6
 author: Dzenan Ridjanovic <dzenanr@gmail.com>
 description: A model with 2 concepts that uses Dartlero. A web application with web components that use the model.
 homepage: http://ondart.me/

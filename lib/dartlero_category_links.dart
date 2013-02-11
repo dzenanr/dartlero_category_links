@@ -1,5 +1,7 @@
 library dartlero_category_links;
 
+import 'dart:html';
+import 'dart:json';
 import 'dart:uri';
 
 import 'package:dartlero/dartlero.dart';

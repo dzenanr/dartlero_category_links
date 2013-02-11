@@ -1,15 +1,20 @@
-import 'dart:html';
-import 'dart:uri';
-
 import 'package:dartlero/dartlero.dart';
 import 'package:dartlero_category_links/dartlero_category_links.dart';
 
+CategoryLinksModel categoryLinksModel;
 Categories categories;
 
+load() {
+  categoryLinksModel.load();
+}
+
+save() {
+  categoryLinksModel.save();
+}
+
 void main() {
-  CategoryLinksModel categoryLinksModel = new CategoryLinksModel();
-  categoryLinksModel.init();
+  categoryLinksModel = new CategoryLinksModel();
   categories = categoryLinksModel.categories;
-  categories.order();
+  load();
 }
 

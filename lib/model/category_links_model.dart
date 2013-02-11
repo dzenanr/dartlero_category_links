@@ -57,6 +57,21 @@ class CategoryLinksModel extends ConceptModel {
     dartCategoryLinks.add(dartCategoryDartLink);
   }
 
+  load() {
+    String json = window.localStorage['category_links'];
+    if (json == null) {
+      init();
+    } else {
+      categories.fromJson(parse(json));
+    }
+    categories.order();
+  }
+
+  save() {
+    window.localStorage['category_links'] =
+        stringify(categories.toJson());
+  }
+
   display() {
     print('Category Links Model');
     print('====================');

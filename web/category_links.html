@@ -12,7 +12,10 @@
     <link rel="stylesheet" href="css/table.css"/>
   </head>
   <body>
-    <div class="page-title">Category Links</div>
+    <div class="page-title">
+      Category Links
+      <button on-click="save()">Save</button>
+    </div>
 
     <x-category-table
       categories="{{ categories }}">

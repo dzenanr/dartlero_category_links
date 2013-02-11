@@ -18,8 +18,8 @@ class CategoryAdd extends WebComponent {
     }
     if (!error) {
       var category = new Category();
-	  category.code = code.value;
-	  category.description = description.value;
+	    category.code = code.value;
+	    category.description = description.value;
       if (categories.add(category)) {
         message.text = 'added';
         var categoryTable = document.query('x-category-table').xtag;
