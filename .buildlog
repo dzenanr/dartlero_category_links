@@ -6114,3 +6114,18 @@ build.dart --machine --changed=doc\model\link_edit.png
 
 build.dart finished [294 ms]
 
+---
+build.dart --machine --changed=doc\app\category_links_app.png --removed=doc\model\category_links_app.png
+
+build.dart finished [252 ms]
+
+---
+build.dart --machine --changed=doc\app\category_add.png --removed=doc\model\category_add.png
+
+build.dart finished [237 ms]
+
+---
+build.dart --machine --changed=doc\app\link_edit.png --removed=doc\model\link_edit.png
+
+build.dart finished [295 ms]
+
