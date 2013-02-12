@@ -40,12 +40,6 @@ testCategories() {
   });
 }
 
-initModel() {
-  CategoryLinksModel categoryLinksModel = new CategoryLinksModel();
-  categoryLinksModel.init();
-  //categoryLinksModel.display();
-}
-
 main() {
   testCategories();
 }

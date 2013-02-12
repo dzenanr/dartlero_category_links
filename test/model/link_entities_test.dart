@@ -4,10 +4,14 @@ import 'package:unittest/unittest.dart';
 import 'package:dartlero/dartlero.dart';
 import 'package:dartlero_category_links/dartlero_category_links.dart';
 
-testCategoryLinks(Category category) {
+testCategoryLinks() {
+  Category category;
   group("Testing Category Links", () {
     setUp(() {
-
+      CategoryLinksModel categoryLinksModel = new CategoryLinksModel();
+      categoryLinksModel.init();
+      Categories categories = categoryLinksModel.categories;
+      category = categories.find('Dart');
     });
     tearDown(() {
       category.links.clear();
@@ -24,9 +28,5 @@ testCategoryLinks(Category category) {
 }
 
 main() {
-  CategoryLinksModel categoryLinksModel = new CategoryLinksModel();
-  categoryLinksModel.init();
-  Categories categories = categoryLinksModel.categories;
-  Category dartCategory = categories.find('Dart');
-  testCategoryLinks(dartCategory);
+  testCategoryLinks();
 }

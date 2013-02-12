@@ -5995,3 +5995,122 @@ build.dart --machine --changed=web\out\category_links.dart --changed=web\out\cat
 
 build.dart finished [595 ms]
 
+---
+build.dart --machine --changed=test\model\link_entities_test.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 433 ms
+build.dart finished [1185 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [634 ms]
+
+---
+build.dart --machine --changed=test\model\link_entities_test.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 343 ms
+build.dart finished [752 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [625 ms]
+
+---
+build.dart --machine --changed=test\model\category_entities_test.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 370 ms
+build.dart finished [719 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [419 ms]
+
+---
+build.dart --machine --changed=test\model\link_entities_test.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 373 ms
+build.dart finished [718 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [311 ms]
+
+---
+build.dart --machine --changed=test\model\link_entities_test.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 558 ms
+build.dart finished [1266 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [352 ms]
+
+---
+build.dart --machine --changed=test\model\link_entities_test.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 543 ms
+build.dart finished [1211 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [777 ms]
+
+---
+build.dart --machine --full
+Unable to open file: C:/Users/ridjanod/git/dart/web_ui/dartlero_category_links/packages/web_ui/component_build.dart'file:///C:/Users/ridjanod/git/dart/web_ui/dartlero_category_links/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [1394 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 1717 ms
+build.dart finished [2183 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.html --changed=web\...
+
+build.dart finished [1470 ms]
+
+---
+build.dart --machine --changed=doc\category_links_model.png
+
+build.dart finished [375 ms]
+
+---
+build.dart --machine --changed=doc\model\model_json.txt
+
+build.dart finished [2643 ms]
+
+---
+build.dart --machine --changed=doc\model\model_json.txt
+
+build.dart finished [2911 ms]
+
+---
+build.dart --machine --changed=doc\model\category_links_model.png --removed=doc\category_links_model.png
+
+build.dart finished [302 ms]
+
+---
+build.dart --machine --changed=doc\model\category_links_app.png
+
+build.dart finished [231 ms]
+
+---
+build.dart --machine --changed=doc\model\category_add.png
+
+build.dart finished [294 ms]
+
+---
+build.dart --machine --changed=doc\model\link_edit.png
+
+build.dart finished [294 ms]
+
