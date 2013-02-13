@@ -7,13 +7,6 @@ class Category extends ConceptEntity<Category> {
 
   Category newEntity() => new Category();
 
-  Category copy() {
-    Category category = super.copy();
-    category.description = description;
-    category.links = links.copy();
-    return category;
-  }
-
   String toString() {
     return '  {\n '
            '    ${super.toString()}, \n '

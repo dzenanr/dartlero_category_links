@@ -7,13 +7,6 @@ class Link extends ConceptEntity<Link> {
 
   Link newEntity() => new Link();
 
-  Link copy() {
-    Link link = super.copy();
-    link.url = url;
-    link.description = description;
-    return link;
-  }
-
   String toString() {
     return '  {\n '
            '    ${super.toString()}, \n '

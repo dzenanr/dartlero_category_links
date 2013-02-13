@@ -12,7 +12,7 @@ save() {
   categoryLinksModel.save();
 }
 
-void main() {
+main() {
   categoryLinksModel = new CategoryLinksModel();
   categories = categoryLinksModel.categories;
   load();

@@ -22,7 +22,8 @@ class CategoryLinksModel extends ConceptModel {
     var webCategoryLinks = webCategory.links;
     var webCategoryHtml5Link = new Link();
     webCategoryHtml5Link.code = 'HTML5';
-    webCategoryHtml5Link.url = new Uri.fromString('http://www.html5rocks.com/');
+    webCategoryHtml5Link.url =
+        new Uri.fromString('http://www.html5rocks.com/');
     webCategoryHtml5Link.description =
         'HTML5 is the ubiquitous platform for the web.';
     webCategoryLinks.add(webCategoryHtml5Link);
@@ -85,6 +86,12 @@ class CategoryLinksModel extends ConceptModel {
       '============= ============= ============= '
       '============= ============= ============= '
     );
+  }
+
+  main() {
+    var categoryLinksModel = new CategoryLinksModel();
+    categoryLinksModel.init();
+    categoryLinksModel.display();
   }
 
 }
