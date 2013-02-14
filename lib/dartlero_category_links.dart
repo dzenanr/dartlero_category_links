@@ -1,7 +1,6 @@
 library dartlero_category_links;
 
 import 'dart:uri';
-
 import 'package:dartlero/dartlero.dart';
 
 part 'model/category_entities.dart';

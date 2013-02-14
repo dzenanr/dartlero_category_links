@@ -73,10 +73,4 @@ class CategoryLinksModel extends ConceptModel {
     );
   }
 
-  main() {
-    var categoryLinksModel = new CategoryLinksModel();
-    categoryLinksModel.init();
-    categoryLinksModel.display();
-  }
-
 }
