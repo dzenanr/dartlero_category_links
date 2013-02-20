@@ -28,7 +28,7 @@ class Category extends ConceptEntity<Category> {
   }
 
   bool get onProgramming =>
-      description.contains('Programming') ? true : false;
+      description.contains('programming') ? true : false;
 
 }
 

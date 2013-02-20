@@ -1,7 +1,11 @@
 name: dartlero_category_links
-version: 0.0.6
+version: 0.0.8
 author: Dzenan Ridjanovic <dzenanr@gmail.com>
-description: A model with 2 concepts that uses dartlero. A web application with web components that use the model.
+description: "A model with 2 concepts that use dartlero. A web application with web\
+  \ components that display categories and their links from the model. \r\nA category\
+  \ may be added, edited and removed. A link may be added, edited and removed. Categories\
+  \ and their links are tested. \r\nThe model may be saved (and loaded automatically\
+  \ when the application starts)."
 homepage: http://ondart.me/
 dependencies:
   browser: any

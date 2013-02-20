@@ -8,11 +8,11 @@ class Link extends ConceptEntity<Link> {
   Link newEntity() => new Link();
 
   String toString() {
-    return '  {\n '
-           '    ${super.toString()}, \n '
-           '    link: ${url}, \n '
-           '    description: ${description}\n'
-           '  }\n';
+    return '    {\n '
+           '      ${super.toString()}, \n '
+           '      link: ${url}, \n '
+           '      description: ${description}\n'
+           '    }\n';
   }
 
   Map<String, Object> toJson() {
@@ -29,7 +29,7 @@ class Link extends ConceptEntity<Link> {
   }
 
   bool get onProgramming =>
-      description.contains('Programming') ? true : false;
+      description.contains('programming') ? true : false;
 
 }
 

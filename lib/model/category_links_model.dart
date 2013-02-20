@@ -37,7 +37,7 @@ class CategoryLinksModel extends ConceptModel {
 
     var dartCategory = new Category();
     dartCategory.code = 'Dart';
-    dartCategory.description = 'Web language, tools and how to.';
+    dartCategory.description = 'Web programming language, tools and how to.';
 
     categories.add(dartCategory);
 
@@ -53,7 +53,7 @@ class CategoryLinksModel extends ConceptModel {
     dartCategoryDartLink.code = 'Dart';
     dartCategoryDartLink.url = new Uri.fromString('http://www.dartlang.org/');
     dartCategoryDartLink.description =
-        'Dart addresses issues with traditional web development '
+        'Dart addresses issues with traditional web programming '
         'languages while remaining easy to learn.';
     dartCategoryLinks.add(dartCategoryDartLink);
   }
@@ -62,7 +62,11 @@ class CategoryLinksModel extends ConceptModel {
     print('Category Links Model');
     print('====================');
     for (var category in categories) {
+      print('  Category');
+      print('  --------');
       print(category.toString());
+      print('    Links');
+      print('    -----');
       for (var link in category.links) {
         print(link.toString());
       }
@@ -72,5 +76,6 @@ class CategoryLinksModel extends ConceptModel {
       '============= ============= ============= '
     );
   }
+
 
 }

@@ -36,7 +36,7 @@ Description:
   Concepts: Category, Link.
       
 Next steps:
-  cd git/dart/educ/dartlero_category_links
+  cd git/dart/web_ui/dartlero_category_links
   git init
   git status
   git add .
@@ -50,7 +50,7 @@ Git with Git Bash
 
 Clone a remote repository into a local repository.
 
-cd git/dart/educ
+cd git/dart/web_ui
 git clone https://github.com/dzenanr/dartlero_category_links.git
 cd dartlero_category_links
 
@@ -70,7 +70,7 @@ git pull origin master
 
 Work with a local repository
 
-cd git/dart/educ/dartlero_category_links
+cd git/dart/web_ui/dartlero_category_links
 
 git status
 

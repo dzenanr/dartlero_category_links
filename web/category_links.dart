@@ -8,7 +8,7 @@ CategoryLinksModel categoryLinksModel;
 Categories categories;
 
 load() {
-  String json = window.localStorage['category_links'];
+  String json = window.localStorage['dartlero_category_links'];
   if (json == null) {
     categoryLinksModel.init();
   } else {
@@ -18,7 +18,7 @@ load() {
 }
 
 save() {
-  window.localStorage['category_links'] =
+  window.localStorage['dartlero_category_links'] =
       stringify(categories.toJson());
 }
 
