@@ -24,7 +24,7 @@ class Link extends ConceptEntity<Link> {
 
   fromJson(Map<String, Object> entityMap) {
     super.fromJson(entityMap);
-    url = new Uri.fromString('url');
+    url = new Uri.fromString(entityMap['url']);
     description = entityMap['description'];
   }
 

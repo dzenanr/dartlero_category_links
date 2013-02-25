@@ -22,7 +22,7 @@ class CategoryAdd extends WebComponent {
 	    category.description = description.value;
       if (categories.add(category)) {
         message.text = 'added';
-        var categoryTable = document.query('x-category-table').xtag;
+        var categoryTable = query('x-category-table').xtag;
         categoryTable.categories.order();
       } else {
         message.text = 'category name already in use';
