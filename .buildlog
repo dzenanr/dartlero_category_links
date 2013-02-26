@@ -7164,3 +7164,15 @@ build.dart --machine --changed=web\out\category_links.dart --changed=web\out\cat
 Total time                                                   --  93 ms
 build.dart finished [2167 ms]
 
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 858 ms
+Total time                                                   -- 875 ms
+build.dart finished [1483 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.dart.map --changed=...
+Total time                                                   --  35 ms
+build.dart finished [1491 ms]
+

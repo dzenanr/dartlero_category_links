@@ -1,5 +1,4 @@
 .buildlog
-.children
 packages
 web/out
 *.js
