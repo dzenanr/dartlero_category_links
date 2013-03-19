@@ -7176,3 +7176,147 @@ build.dart --machine --changed=web\out\category_links.dart --changed=web\out\cat
 Total time                                                   --  35 ms
 build.dart finished [1491 ms]
 
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 737 ms
+Total time                                                   -- 753 ms
+build.dart finished [1288 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.dart.map --changed=...
+Total time                                                   --  37 ms
+build.dart finished [901 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  37 ms
+build.dart finished [1504 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  13 ms
+build.dart finished [572 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 818 ms
+Total time                                                   -- 839 ms
+build.dart finished [1425 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.dart.map --changed=...
+Total time                                                   --  43 ms
+build.dart finished [1556 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 1004 ms
+Total time                                                   -- 1026 ms
+build.dart finished [1706 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.dart.map --changed=...
+Total time                                                   --  18 ms
+build.dart finished [756 ms]
+
+---
+build.dart --machine --changed=web\category_links.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 956 ms
+Total time                                                   -- 976 ms
+build.dart finished [1666 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.dart.map --changed=...
+Total time                                                   --  21 ms
+build.dart finished [1107 ms]
+
+---
+build.dart --machine --changed=web\category_links.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 788 ms
+Total time                                                   -- 804 ms
+build.dart finished [1447 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.dart.map --changed=...
+Total time                                                   --  13 ms
+build.dart finished [561 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 1187 ms
+Total time                                                   -- 1207 ms
+build.dart finished [1766 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.dart.map --changed=...
+Total time                                                   --  38 ms
+build.dart finished [1480 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 1067 ms
+Total time                                                   -- 1088 ms
+build.dart finished [1746 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.dart.map --changed=...
+Total time                                                   --  37 ms
+build.dart finished [681 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 748 ms
+Total time                                                   -- 765 ms
+build.dart finished [1305 ms]
+
+---
+build.dart --machine --changed=web\out\category_links.dart --changed=web\out\category_links.dart.map --changed=...
+Total time                                                   --  21 ms
+build.dart finished [972 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Uncaught Error: Class '_LinkedHashTableValueIterable<Option>' has no instance method 'firstMatching'.
+
+NoSuchMethodError : method not found: 'firstMatching'
+Receiver: Instance of '_LinkedHashTableValueIterable@0x23c35ea0<Option>'
+Arguments: [Closure: (dynamic, dynamic) => dynamic, orElse: Closure: (dynamic) => dynamic]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1884:25)
+#1      ArgParser.findByAbbreviation (package:args/args.dart:334:40)
+#2      ArgParser._addOption (package:args/args.dart:293:40)
+#3      ArgParser.addFlag (package:args/args.dart:260:15)
+#4      CompilerOptions.parse (package:web_ui/src/options.dart:65:16)
+#5      run (package:web_ui/dwc.dart:65:38)
+#6      build.<anonymous closure>.<anonymous closure> (package:web_ui/component_build.dart:71:48)
+#7      _ThenFuture._sendValue (dart:async:463:24)
+#8      _FutureImpl._handleValue.<anonymous closure> (dart:async:337:28)
+#9      Timer.run.<anonymous closure> (dart:async:2362:21)
+#10     Timer.Timer.<anonymous closure> (dart:async-patch:15:15)
+
+
+Unhandled exception:
+Class '_LinkedHashTableValueIterable<Option>' has no instance method 'firstMatching'.
+
+NoSuchMethodError : method not found: 'firstMatching'
+Receiver: Instance of '_LinkedHashTableValueIterable@0x23c35ea0<Option>'
+Arguments: [Closure: (dynamic, dynamic) => dynamic, orElse: Closure: (dynamic) => dynamic]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:391:9)
+#1      Timer.run.<anonymous closure> (dart:async:2362:21)
+#2      Timer.run.<anonymous closure> (dart:async:2370:13)
+#3      Timer.Timer.<anonymous closure> (dart:async-patch:15:15)
+#4      _Timer._createTimerHandler._handleTimeout (dart:io:6297:28)
+#5      _Timer._createTimerHandler._handleTimeout (dart:io:6305:7)
+#6      _Timer._createTimerHandler.<anonymous closure> (dart:io:6313:23)
+#7      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [941 ms]
+
