@@ -4,21 +4,21 @@
   <head>
     <meta charset="utf-8">
     <title>Categories</title>
-    <link rel="components" href="category_add.html">
-    <link rel="components" href="category_edit.html">
-    <link rel="components" href="../link/link_table.html">
+    <link rel="import" href="category_add.html">
+    <link rel="import" href="category_edit.html">
+    <link rel="import" href="../link/link_table.html">
   </head>
   <body>
-    <element name="x-category-table" extends="span">
+    <element name="category-table" extends="span">
       <template>
         <div template if="showCategoryAdd">
-          <x-category-add categories="{{ categories }}"></x-category-add>
+          <category-add categories="{{ categories }}"></category-add>
         </div>
         <div template if="showCategoryEdit">
-          <x-category-edit
+          <category-edit
             categories="{{ categories }}"
             category="{{ category }}">
-          </x-category-edit>
+          </category-edit>
         </div>
         <table>
           <caption class="marker">
@@ -46,11 +46,11 @@
         </table>
         <br/>
         <div template if="showCategoryLinks">
-          <x-link-table
+          <link-table
+            id="link-table"
             category="{{ category }}"
-            links="{{ category.links }}"
-          >
-          </x-link-table>
+            links="{{ category.links }}">
+          </link-table>
         </div>
       </template>
       <script type="application/dart" src="category_table.dart"></script>

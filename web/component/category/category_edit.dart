@@ -10,7 +10,7 @@ class CategoryEdit extends WebComponent {
   update() {
     InputElement description = query("#edit-category-description");
     category.description = description.value;
-    var categoryTable = document.query('x-category-table').xtag;
+    var categoryTable = document.query('#category-table').xtag;
     categoryTable.showCategoryEdit = false;
   }
 

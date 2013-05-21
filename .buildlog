@@ -7363,3 +7363,340 @@ build.dart --machine --changed=pubspec.lock
 Total time                                                   --  17 ms
 build.dart finished [1004 ms]
 
+---
+build.dart --machine --full
+'package:analyzer_experimental/src/generated/java_core.dart': Error: line 255 pos 30: cannot resolve class name 'Collection' from 'ListWrapper'
+class ListWrapper<E> extends Collection<E> implements List<E> {
+                             ^
+build.dart finished [427 ms]
+
+---
+build.dart --machine --full
+'package:analyzer_experimental/src/generated/java_core.dart': Error: line 255 pos 30: cannot resolve class name 'Collection' from 'ListWrapper'
+class ListWrapper<E> extends Collection<E> implements List<E> {
+                             ^
+build.dart finished [545 ms]
+
+---
+build.dart --machine --full
+'package:analyzer_experimental/src/generated/java_core.dart': Error: line 255 pos 30: cannot resolve class name 'Collection' from 'ListWrapper'
+class ListWrapper<E> extends Collection<E> implements List<E> {
+                             ^
+build.dart finished [436 ms]
+
+---
+build.dart --machine --full
+'package:analyzer_experimental/src/generated/java_core.dart': Error: line 255 pos 30: cannot resolve class name 'Collection' from 'ListWrapper'
+class ListWrapper<E> extends Collection<E> implements List<E> {
+                             ^
+build.dart finished [495 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  29 ms
+build.dart finished [553 ms]
+
+---
+build.dart --machine --changed=lib/model/category_links_model.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"warning","params":{"file":"web/category_links.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":98,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":94,"charEnd":142}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":147,"charEnd":196}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":9,"charStart":201,"charEnd":255}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":89,"charEnd":133}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":138,"charEnd":183}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"Implied constructor name for x-tags has changed to \"XCategoryTable\". You should rename your class or add a constructor=\"CategoryTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":12,"charStart":279,"charEnd":327}}]
+[{"method":"warning","params":{"file":"web/component/category/category_edit.html","message":"Implied constructor name for x-tags has changed to \"XCategoryEdit\". You should rename your class or add a constructor=\"CategoryEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":116,"charEnd":163}}]
+[{"method":"warning","params":{"file":"web/component/category/category_add.html","message":"Implied constructor name for x-tags has changed to \"XCategoryAdd\". You should rename your class or add a constructor=\"CategoryAdd\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":115,"charEnd":161}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"Implied constructor name for x-tags has changed to \"XLinkTable\". You should rename your class or add a constructor=\"LinkTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":11,"charStart":207,"charEnd":251}}]
+[{"method":"warning","params":{"file":"web/component/link/link_add.html","message":"Implied constructor name for x-tags has changed to \"XLinkAdd\". You should rename your class or add a constructor=\"LinkAdd\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":111,"charEnd":153}}]
+[{"method":"warning","params":{"file":"web/component/link/link_edit.html","message":"Implied constructor name for x-tags has changed to \"XLinkEdit\". You should rename your class or add a constructor=\"LinkEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":112,"charEnd":155}}]
+Total time spent on web/category_links.html                  -- 945 ms
+Total time                                                   -- 981 ms
+build.dart finished [1459 ms]
+
+---
+build.dart --machine --changed=web/out/category_links.dart --changed=web/out/category_links.dart.map --changed=...
+Total time                                                   --  31 ms
+build.dart finished [532 ms]
+
+---
+build.dart --machine --changed=lib/model/link_entities.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"warning","params":{"file":"web/category_links.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":98,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":94,"charEnd":142}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":147,"charEnd":196}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":9,"charStart":201,"charEnd":255}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":89,"charEnd":133}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":138,"charEnd":183}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"Implied constructor name for x-tags has changed to \"XCategoryTable\". You should rename your class or add a constructor=\"CategoryTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":12,"charStart":279,"charEnd":327}}]
+[{"method":"warning","params":{"file":"web/component/category/category_add.html","message":"Implied constructor name for x-tags has changed to \"XCategoryAdd\". You should rename your class or add a constructor=\"CategoryAdd\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":115,"charEnd":161}}]
+[{"method":"warning","params":{"file":"web/component/category/category_edit.html","message":"Implied constructor name for x-tags has changed to \"XCategoryEdit\". You should rename your class or add a constructor=\"CategoryEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":116,"charEnd":163}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"Implied constructor name for x-tags has changed to \"XLinkTable\". You should rename your class or add a constructor=\"LinkTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":11,"charStart":207,"charEnd":251}}]
+[{"method":"warning","params":{"file":"web/component/link/link_add.html","message":"Implied constructor name for x-tags has changed to \"XLinkAdd\". You should rename your class or add a constructor=\"LinkAdd\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":111,"charEnd":153}}]
+[{"method":"warning","params":{"file":"web/component/link/link_edit.html","message":"Implied constructor name for x-tags has changed to \"XLinkEdit\". You should rename your class or add a constructor=\"LinkEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":112,"charEnd":155}}]
+Total time spent on web/category_links.html                  -- 1022 ms
+Total time                                                   -- 1056 ms
+build.dart finished [3664 ms]
+
+---
+build.dart --machine --changed=web/out/category_links.dart --changed=web/out/category_links.dart.map --changed=...
+Total time                                                   --  30 ms
+build.dart finished [504 ms]
+
+---
+build.dart --machine --changed=test/model/link_entities_test.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"warning","params":{"file":"web/category_links.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":98,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":94,"charEnd":142}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":147,"charEnd":196}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":9,"charStart":201,"charEnd":255}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":89,"charEnd":133}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":138,"charEnd":183}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"Implied constructor name for x-tags has changed to \"XCategoryTable\". You should rename your class or add a constructor=\"CategoryTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":12,"charStart":279,"charEnd":327}}]
+[{"method":"warning","params":{"file":"web/component/category/category_add.html","message":"Implied constructor name for x-tags has changed to \"XCategoryAdd\". You should rename your class or add a constructor=\"CategoryAdd\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":115,"charEnd":161}}]
+[{"method":"warning","params":{"file":"web/component/category/category_edit.html","message":"Implied constructor name for x-tags has changed to \"XCategoryEdit\". You should rename your class or add a constructor=\"CategoryEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":116,"charEnd":163}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"Implied constructor name for x-tags has changed to \"XLinkTable\". You should rename your class or add a constructor=\"LinkTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":11,"charStart":207,"charEnd":251}}]
+[{"method":"warning","params":{"file":"web/component/link/link_add.html","message":"Implied constructor name for x-tags has changed to \"XLinkAdd\". You should rename your class or add a constructor=\"LinkAdd\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":111,"charEnd":153}}]
+[{"method":"warning","params":{"file":"web/component/link/link_edit.html","message":"Implied constructor name for x-tags has changed to \"XLinkEdit\". You should rename your class or add a constructor=\"LinkEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":112,"charEnd":155}}]
+Total time spent on web/category_links.html                  -- 951 ms
+Total time                                                   -- 983 ms
+build.dart finished [1462 ms]
+
+---
+build.dart --machine --changed=web/out/category_links.dart --changed=web/out/category_links.dart.map --changed=...
+Total time                                                   --  30 ms
+build.dart finished [493 ms]
+
+---
+build.dart --machine --changed=web/component/link/link_add.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"warning","params":{"file":"web/category_links.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":98,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":94,"charEnd":142}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":147,"charEnd":196}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":9,"charStart":201,"charEnd":255}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":89,"charEnd":133}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":138,"charEnd":183}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"Implied constructor name for x-tags has changed to \"XCategoryTable\". You should rename your class or add a constructor=\"CategoryTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":12,"charStart":279,"charEnd":327}}]
+[{"method":"warning","params":{"file":"web/component/category/category_add.html","message":"Implied constructor name for x-tags has changed to \"XCategoryAdd\". You should rename your class or add a constructor=\"CategoryAdd\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":115,"charEnd":161}}]
+[{"method":"warning","params":{"file":"web/component/category/category_edit.html","message":"Implied constructor name for x-tags has changed to \"XCategoryEdit\". You should rename your class or add a constructor=\"CategoryEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":116,"charEnd":163}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"Implied constructor name for x-tags has changed to \"XLinkTable\". You should rename your class or add a constructor=\"LinkTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":11,"charStart":207,"charEnd":251}}]
+[{"method":"warning","params":{"file":"web/component/link/link_add.html","message":"Implied constructor name for x-tags has changed to \"XLinkAdd\". You should rename your class or add a constructor=\"LinkAdd\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":111,"charEnd":153}}]
+[{"method":"warning","params":{"file":"web/component/link/link_edit.html","message":"Implied constructor name for x-tags has changed to \"XLinkEdit\". You should rename your class or add a constructor=\"LinkEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":112,"charEnd":155}}]
+Total time spent on web/category_links.html                  -- 956 ms
+Total time                                                   -- 991 ms
+build.dart finished [1457 ms]
+
+---
+build.dart --machine --changed=web/out/category_links.dart --changed=web/out/category_links.dart.map --changed=...
+Total time                                                   --  32 ms
+build.dart finished [531 ms]
+
+---
+build.dart --machine --changed=web/component/link/link_add.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"warning","params":{"file":"web/category_links.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":98,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":94,"charEnd":142}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":147,"charEnd":196}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":9,"charStart":201,"charEnd":255}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":89,"charEnd":133}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":138,"charEnd":183}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"Implied constructor name for x-tags has changed to \"XCategoryTable\". You should rename your class or add a constructor=\"CategoryTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":12,"charStart":279,"charEnd":327}}]
+[{"method":"warning","params":{"file":"web/component/category/category_add.html","message":"Implied constructor name for x-tags has changed to \"XCategoryAdd\". You should rename your class or add a constructor=\"CategoryAdd\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":115,"charEnd":161}}]
+[{"method":"warning","params":{"file":"web/component/category/category_edit.html","message":"Implied constructor name for x-tags has changed to \"XCategoryEdit\". You should rename your class or add a constructor=\"CategoryEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":116,"charEnd":163}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"Implied constructor name for x-tags has changed to \"XLinkTable\". You should rename your class or add a constructor=\"LinkTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":11,"charStart":207,"charEnd":251}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"custom element with tag name x-link-add not found.","line":14,"charStart":319,"charEnd":401}}]
+[{"method":"warning","params":{"file":"web/component/link/link_edit.html","message":"Implied constructor name for x-tags has changed to \"XLinkEdit\". You should rename your class or add a constructor=\"LinkEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":112,"charEnd":155}}]
+Total time spent on web/category_links.html                  -- 989 ms
+Total time                                                   -- 1026 ms
+build.dart finished [1505 ms]
+
+---
+build.dart --machine --changed=web/out/category_links.dart --changed=web/out/category_links.dart.map --changed=...
+Total time                                                   --  31 ms
+build.dart finished [499 ms]
+
+---
+build.dart --machine --changed=web/component/link/link_edit.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"warning","params":{"file":"web/category_links.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":98,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":94,"charEnd":142}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":147,"charEnd":196}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":9,"charStart":201,"charEnd":255}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":89,"charEnd":133}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":138,"charEnd":183}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"Implied constructor name for x-tags has changed to \"XCategoryTable\". You should rename your class or add a constructor=\"CategoryTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":12,"charStart":279,"charEnd":327}}]
+[{"method":"warning","params":{"file":"web/component/category/category_add.html","message":"Implied constructor name for x-tags has changed to \"XCategoryAdd\". You should rename your class or add a constructor=\"CategoryAdd\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":115,"charEnd":161}}]
+[{"method":"warning","params":{"file":"web/component/category/category_edit.html","message":"Implied constructor name for x-tags has changed to \"XCategoryEdit\". You should rename your class or add a constructor=\"CategoryEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":116,"charEnd":163}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"Implied constructor name for x-tags has changed to \"XLinkTable\". You should rename your class or add a constructor=\"LinkTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":11,"charStart":207,"charEnd":251}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"custom element with tag name x-link-add not found.","line":14,"charStart":319,"charEnd":401}}]
+[{"method":"warning","params":{"file":"web/component/link/link_edit.html","message":"Implied constructor name for x-tags has changed to \"XLinkEdit\". You should rename your class or add a constructor=\"LinkEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":112,"charEnd":155}}]
+Total time spent on web/category_links.html                  -- 979 ms
+Total time                                                   -- 1015 ms
+build.dart finished [1476 ms]
+
+---
+build.dart --machine --changed=web/out/category_links.dart --changed=web/out/category_links.dart.map --changed=...
+Total time                                                   --  30 ms
+build.dart finished [503 ms]
+
+---
+build.dart --machine --changed=web/component/link/link_edit.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"warning","params":{"file":"web/category_links.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":98,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":94,"charEnd":142}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":147,"charEnd":196}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":9,"charStart":201,"charEnd":255}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":89,"charEnd":133}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":138,"charEnd":183}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"Implied constructor name for x-tags has changed to \"XCategoryTable\". You should rename your class or add a constructor=\"CategoryTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":12,"charStart":279,"charEnd":327}}]
+[{"method":"warning","params":{"file":"web/component/category/category_add.html","message":"Implied constructor name for x-tags has changed to \"XCategoryAdd\". You should rename your class or add a constructor=\"CategoryAdd\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":115,"charEnd":161}}]
+[{"method":"warning","params":{"file":"web/component/category/category_edit.html","message":"Implied constructor name for x-tags has changed to \"XCategoryEdit\". You should rename your class or add a constructor=\"CategoryEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":116,"charEnd":163}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"Implied constructor name for x-tags has changed to \"XLinkTable\". You should rename your class or add a constructor=\"LinkTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":11,"charStart":207,"charEnd":251}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"custom element with tag name x-link-add not found.","line":14,"charStart":319,"charEnd":401}}]
+[{"method":"warning","params":{"file":"web/component/link/link_table.html","message":"custom element with tag name x-link-edit not found.","line":20,"charStart":492,"charEnd":605}}]
+Total time spent on web/category_links.html                  -- 996 ms
+Total time                                                   -- 1031 ms
+build.dart finished [1511 ms]
+
+---
+build.dart --machine --changed=web/out/category_links.dart --changed=web/out/category_links.dart.map --changed=...
+Total time                                                   --  30 ms
+build.dart finished [494 ms]
+
+---
+build.dart --machine --changed=web/component/link/link_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"warning","params":{"file":"web/category_links.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":98,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":94,"charEnd":142}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":147,"charEnd":196}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":9,"charStart":201,"charEnd":255}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"Implied constructor name for x-tags has changed to \"XCategoryTable\". You should rename your class or add a constructor=\"CategoryTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":12,"charStart":279,"charEnd":327}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"custom element with tag name x-link-table not found.","line":49,"charStart":1600,"charEnd":1704}}]
+[{"method":"warning","params":{"file":"web/component/category/category_add.html","message":"Implied constructor name for x-tags has changed to \"XCategoryAdd\". You should rename your class or add a constructor=\"CategoryAdd\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":115,"charEnd":161}}]
+[{"method":"warning","params":{"file":"web/component/category/category_edit.html","message":"Implied constructor name for x-tags has changed to \"XCategoryEdit\". You should rename your class or add a constructor=\"CategoryEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":116,"charEnd":163}}]
+Total time spent on web/category_links.html                  -- 955 ms
+Total time                                                   -- 991 ms
+build.dart finished [1480 ms]
+
+---
+build.dart --machine --changed=web/out/category_links.dart --changed=web/out/category_links.dart.map --changed=...
+Total time                                                   --  29 ms
+build.dart finished [499 ms]
+
+---
+build.dart --machine --changed=web/component/category/category_add.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"warning","params":{"file":"web/category_links.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":98,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":94,"charEnd":142}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":147,"charEnd":196}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":9,"charStart":201,"charEnd":255}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"Implied constructor name for x-tags has changed to \"XCategoryTable\". You should rename your class or add a constructor=\"CategoryTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":12,"charStart":279,"charEnd":327}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"custom element with tag name x-link-table not found.","line":49,"charStart":1600,"charEnd":1704}}]
+[{"method":"warning","params":{"file":"web/component/category/category_add.html","message":"Implied constructor name for x-tags has changed to \"XCategoryAdd\". You should rename your class or add a constructor=\"CategoryAdd\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":115,"charEnd":161}}]
+[{"method":"warning","params":{"file":"web/component/category/category_edit.html","message":"Implied constructor name for x-tags has changed to \"XCategoryEdit\". You should rename your class or add a constructor=\"CategoryEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":116,"charEnd":163}}]
+Total time spent on web/category_links.html                  -- 925 ms
+Total time                                                   -- 961 ms
+build.dart finished [1432 ms]
+
+---
+build.dart --machine --changed=web/out/category_links.dart --changed=web/out/category_links.dart.map --changed=...
+Total time                                                   --  30 ms
+build.dart finished [497 ms]
+
+---
+build.dart --machine --changed=web/component/category/category_add.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"warning","params":{"file":"web/category_links.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":98,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":94,"charEnd":142}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":147,"charEnd":196}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":9,"charStart":201,"charEnd":255}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"Implied constructor name for x-tags has changed to \"XCategoryTable\". You should rename your class or add a constructor=\"CategoryTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":12,"charStart":279,"charEnd":327}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"custom element with tag name x-category-add not found.","line":15,"charStart":399,"charEnd":445}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"custom element with tag name x-link-table not found.","line":49,"charStart":1600,"charEnd":1704}}]
+[{"method":"warning","params":{"file":"web/component/category/category_edit.html","message":"Implied constructor name for x-tags has changed to \"XCategoryEdit\". You should rename your class or add a constructor=\"CategoryEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":116,"charEnd":163}}]
+Total time spent on web/category_links.html                  -- 1000 ms
+Total time                                                   -- 1036 ms
+build.dart finished [1526 ms]
+
+---
+build.dart --machine --changed=web/out/category_links.dart --changed=web/out/category_links.dart.map --changed=...
+Total time                                                   --  30 ms
+build.dart finished [521 ms]
+
+---
+build.dart --machine --changed=web/component/category/category_edit.dart
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"warning","params":{"file":"web/category_links.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":98,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":94,"charEnd":142}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":147,"charEnd":196}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":9,"charStart":201,"charEnd":255}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"Implied constructor name for x-tags has changed to \"XCategoryTable\". You should rename your class or add a constructor=\"CategoryTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":12,"charStart":279,"charEnd":327}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"custom element with tag name x-category-add not found.","line":15,"charStart":399,"charEnd":445}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"custom element with tag name x-link-table not found.","line":49,"charStart":1600,"charEnd":1704}}]
+[{"method":"warning","params":{"file":"web/component/category/category_edit.html","message":"Implied constructor name for x-tags has changed to \"XCategoryEdit\". You should rename your class or add a constructor=\"CategoryEdit\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":9,"charStart":116,"charEnd":163}}]
+Total time spent on web/category_links.html                  -- 952 ms
+Total time                                                   -- 989 ms
+build.dart finished [1463 ms]
+
+---
+build.dart --machine --changed=web/out/category_links.dart --changed=web/out/category_links.dart.map --changed=...
+Total time                                                   --  30 ms
+build.dart finished [556 ms]
+
+---
+build.dart --machine --changed=web/component/category/category_edit.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"warning","params":{"file":"web/category_links.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":98,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":94,"charEnd":142}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":8,"charStart":147,"charEnd":196}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":9,"charStart":201,"charEnd":255}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"Implied constructor name for x-tags has changed to \"XCategoryTable\". You should rename your class or add a constructor=\"CategoryTable\" attribute to the element declaration. Also custom tags are not required to start with \"x-\" if their name has at least one dash.","line":12,"charStart":279,"charEnd":327}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"custom element with tag name x-category-add not found.","line":15,"charStart":399,"charEnd":445}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"custom element with tag name x-category-edit not found.","line":18,"charStart":533,"charEnd":630}}]
+[{"method":"warning","params":{"file":"web/component/category/category_table.html","message":"custom element with tag name x-link-table not found.","line":49,"charStart":1600,"charEnd":1704}}]
+Total time spent on web/category_links.html                  -- 991 ms
+Total time                                                   -- 1027 ms
+build.dart finished [1514 ms]
+
+---
+build.dart --machine --changed=web/out/category_links.dart --changed=web/out/category_links.dart.map --changed=...
+Total time                                                   --  32 ms
+build.dart finished [517 ms]
+
+---
+build.dart --machine --changed=web/component/category/category_table.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+[{"method":"warning","params":{"file":"web/category_links.html","message":"import syntax is changing, use rel=\"import\" instead of rel=\"components\".","line":7,"charStart":98,"charEnd":167}}]
+[{"method":"warning","params":{"file":"web/category_links.html","message":"custom element with tag name x-category-table not found.","line":20,"charStart":548,"charEnd":602}}]
+Total time spent on web/category_links.html                  -- 933 ms
+Total time                                                   -- 968 ms
+build.dart finished [1444 ms]
+
+---
+build.dart --machine --changed=web/out/category_links.dart --changed=web/out/category_links.dart.map --changed=...
+Total time                                                   --  30 ms
+build.dart finished [517 ms]
+
+---
+build.dart --machine --changed=web/category_links.html
+[{"method":"mapping","params":{"from":"web/category_links.html","to":"web/out/category_links.html"}}]
+Total time spent on web/category_links.html                  -- 935 ms
+Total time                                                   -- 970 ms
+build.dart finished [1443 ms]
+
+---
+build.dart --machine --changed=web/out/category_links.dart --changed=web/out/category_links.dart.map --changed=...
+Total time                                                   --  31 ms
+build.dart finished [528 ms]
+
+---
+build.dart --machine --changed=web/css/page.css
+Total time                                                   --  29 ms
+build.dart finished [498 ms]
+
+---
+build.dart --machine --changed=README.md
+Total time                                                   --  29 ms
+build.dart finished [497 ms]
+

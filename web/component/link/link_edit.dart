@@ -20,9 +20,9 @@ class LinkEdit extends WebComponent {
       error = true;
     }
     if (!error) {
-      link.url = new Uri.fromString(webLink.value);
+      link.url = new Uri(webLink.value);
       link.description = description.value;
-      var linkTable = document.query('x-link-table').xtag;
+      var linkTable = query('#link-table').xtag;
       linkTable.showLinkEdit = false;
     }
   }

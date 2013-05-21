@@ -4,24 +4,24 @@
   <head>
     <meta charset="utf-8">
     <title>Links</title>
-    <link rel="components" href="link_add.html">
-    <link rel="components" href="link_edit.html">
+    <link rel="import" href="link_add.html">
+    <link rel="import" href="link_edit.html">
   </head>
   <body>
-    <element name="x-link-table" extends="span">
+    <element name="link-table" extends="span">
       <template>
         <div template if="showLinkAdd">
-          <x-link-add
+          <link-add
             category="{{ category }}"
             links="{{ links }}">
-          </x-link-add>
+          </link-add>
         </div>
         <div template if="showLinkEdit">
-          <x-link-edit
+          <link-edit
             category="{{ category }}"
             links="{{ links }}"
             link="{{ link }}">
-          </x-link-edit>
+          </link-edit>
         </div>
         <table>
           <caption class="marker">

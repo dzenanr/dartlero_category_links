@@ -3,21 +3,21 @@
 <html><head><style>template { display: none; }</style>
     <meta charset="utf-8">
     <title>Category Links</title>
-    
     <link rel="stylesheet" href="../css/input.css">
     <link rel="stylesheet" href="../css/link.css">
     <link rel="stylesheet" href="../css/marker.css">
     <link rel="stylesheet" href="../css/page.css">
     <link rel="stylesheet" href="../css/table.css">
+    <link rel="import" href="../component/category/category_table.html">
   </head>
   <body>
     <div class="page-title">
       Category Links
-      <button id="__e-0">Save</button>
+      <button>Save</button>
     </div>
 
-    <x-category-table id="__e-1">
-    </x-category-table>
+    <span is="category-table" id="category-table">
+    </span>
 
     
     <script src="../packages/browser/dart.js"></script>
