@@ -3,6 +3,7 @@ import 'dart:json';
 
 import 'package:dartlero/dartlero.dart';
 import 'package:dartlero_category_links/dartlero_category_links.dart';
+import 'package:web_ui/web_ui.dart';
 
 CategoryLinksModel categoryLinksModel;
 Categories categories;
@@ -26,5 +27,6 @@ main() {
   categoryLinksModel = new CategoryLinksModel();
   categories = categoryLinksModel.categories;
   load();
+  categories.internalList = toObservable(categories.internalList);
 }
 

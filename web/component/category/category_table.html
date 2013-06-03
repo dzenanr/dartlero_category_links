@@ -12,7 +12,9 @@
     <element name="category-table" extends="span">
       <template>
         <div template if="showCategoryAdd">
-          <category-add categories="{{ categories }}"></category-add>
+          <category-add
+            categories="{{ categories }}">
+          </category-add>
         </div>
         <div template if="showCategoryEdit">
           <category-edit
@@ -32,7 +34,7 @@
             <th>Remove</th>
             <th>Show</th>
           </tr>
-          <tbody template iterate="category in categories.toList()">
+          <tbody template repeat="category in categories.internalList">
             <tr>
               <td>{{ category.code }}</td>
               <td>{{ category.description }}</td>

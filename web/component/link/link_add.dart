@@ -30,13 +30,11 @@ class LinkAdd extends WebComponent {
       link.description = description.value;
       if (links.add(link)) {
         message.text = 'added';
-        var linkTable = query('#link-table').xtag;
-        linkTable.links.order();
+        links.order();
       } else {
         message.text = 'web link name already in use';
       }
     }
   }
-
 }
 

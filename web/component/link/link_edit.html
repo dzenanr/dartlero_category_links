@@ -12,8 +12,10 @@
           <br/>
           <span class="marker">Link of {{ category.code }} category</span>
           <br/>
-          <label>Name</label>
-          <input readonly="true" value="{{ link.code }}"/>
+          <label for="edit-link-code">Name</label>
+          <input id="edit-link-code"
+            type="text" size="32" value="{{ link.code }}"
+          />
           <br/>
           <label for="edit-link-url">Web Link</label>
           <input id="edit-link-url"

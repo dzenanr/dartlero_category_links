@@ -1,7 +1,6 @@
 part of dartlero_category_links;
 
 class Link extends ConceptEntity<Link> {
-
   Uri url;
   String description;
 
@@ -30,13 +29,10 @@ class Link extends ConceptEntity<Link> {
 
   bool get onProgramming =>
       description.contains('programming') ? true : false;
-
 }
 
 class Links extends ConceptEntities<Link> {
-
   Links newEntities() => new Links();
   Link newEntity() => new Link();
-
 }
 

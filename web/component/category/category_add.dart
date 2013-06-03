@@ -22,12 +22,10 @@ class CategoryAdd extends WebComponent {
 	    category.description = description.value;
       if (categories.add(category)) {
         message.text = 'added';
-        var categoryTable = query('#category-table').xtag;
-        categoryTable.categories.order();
+        categories.order();
       } else {
         message.text = 'category name already in use';
       }
     }
   }
-
 }
