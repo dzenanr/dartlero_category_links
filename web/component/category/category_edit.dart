@@ -5,7 +5,6 @@ import 'package:web_ui/web_ui.dart';
 
 class CategoryEdit extends WebComponent {
   Categories categories;
-  @observable // does not help to see a new description in the list
   Category category;
 
   update() {
