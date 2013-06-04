@@ -5,6 +5,7 @@ import 'package:web_ui/web_ui.dart';
 
 class CategoryTable extends WebComponent {
   Categories categories;
+  //@observable // does not help to see a new description in the list
   Category category;
   @observable
   bool showCategoryAdd = false;
