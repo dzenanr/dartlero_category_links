@@ -4,10 +4,10 @@
 
 /*
   Title:                   Link Design Style
-  Author:                  Dzenan Ridjanovic
+  Authors:                 Dzenan Ridjanovic, Ivo Balbaert
   Influenced By:           http://www.simplebits.com/
   Created:                 2006-09-03
-  Updated:                 2011-12-23
+  Updated:                 2013-06-13
 */
 
   a:link {
@@ -37,8 +37,13 @@
     border-color: #d7b9c9;
     font-weight: bold;
     text-align: center;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
+  }
+
+  button:active {
+    background: orangered;
+    border-color: blue;
   }
 
 /* ===[ end ]=== */

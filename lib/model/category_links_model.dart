@@ -21,15 +21,14 @@ class CategoryLinksModel extends ConceptModel {
     var webCategoryLinks = webCategory.links;
     var webCategoryHtml5Link = new Link();
     webCategoryHtml5Link.code = 'HTML5';
-    webCategoryHtml5Link.url =
-        new Uri('http://www.html5rocks.com/');
+    webCategoryHtml5Link.url = Uri.parse('http://www.html5rocks.com/');
     webCategoryHtml5Link.description =
         'HTML5 is the ubiquitous platform for the web.';
     webCategoryLinks.add(webCategoryHtml5Link);
 
     var webCategoryCss3Link = new Link();
     webCategoryCss3Link.code = 'CSS3';
-    webCategoryCss3Link.url = new Uri('http://www.css3.info/');
+    webCategoryCss3Link.url = Uri.parse('http://www.css3.info/');
     webCategoryCss3Link.description =
         'CSS3 is the new kid in the stylesheet family.';
     webCategoryLinks.add(webCategoryCss3Link);
@@ -43,14 +42,14 @@ class CategoryLinksModel extends ConceptModel {
     var dartCategoryLinks = dartCategory.links;
     var dartCategoryPubLink = new Link();
     dartCategoryPubLink.code = 'Pub';
-    dartCategoryPubLink.url = new Uri('http://pub.dartlang.org/');
+    dartCategoryPubLink.url = Uri.parse('http://pub.dartlang.org/');
     dartCategoryPubLink.description =
         'A repository of software packages for Dart';
     dartCategoryLinks.add(dartCategoryPubLink);
 
     var dartCategoryDartLink = new Link();
     dartCategoryDartLink.code = 'Dart';
-    dartCategoryDartLink.url = new Uri('http://www.dartlang.org/');
+    dartCategoryDartLink.url = Uri.parse('http://www.dartlang.org/');
     dartCategoryDartLink.description =
         'Dart addresses issues with traditional web programming '
         'languages while remaining easy to learn.';

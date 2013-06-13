@@ -1,5 +1,4 @@
 import 'dart:html';
-import 'dart:uri';
 
 import 'package:dartlero_category_links/dartlero_category_links.dart';
 import 'package:web_ui/web_ui.dart';
@@ -26,7 +25,7 @@ class LinkAdd extends WebComponent {
     if (!error) {
       var link = new Link();
       link.code = code.value;
-      link.url = new Uri(webLink.value);
+      link.url = Uri.parse(webLink.value);
       link.description = description.value;
       if (links.add(link)) {
         message.text = 'added';

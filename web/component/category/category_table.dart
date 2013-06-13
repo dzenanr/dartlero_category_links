@@ -35,9 +35,12 @@ class CategoryTable extends WebComponent {
   }
 
   showLinks(category) {
-    showCategoryLinks = true;
-    this.category = category;
-    category.links.internalList = toObservable(category.links.internalList);
-    category.links.order();
+    showCategoryLinks = !showCategoryLinks;
+    if (showCategoryLinks) {
+      showCategoryLinks = true;
+      this.category = category;
+      category.links.internalList = toObservable(category.links.internalList);
+      category.links.order();
+    }
   }
 }

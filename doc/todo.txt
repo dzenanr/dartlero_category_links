@@ -1,4 +1,9 @@
 To Do
 
+- not used a two-way data binding for editing a category or a web link;
+  also, not used HTML5 forms with required and pattern (Spiral 08?)
+- pressing the Links button a 2nd time makes the component disappear, 
+  and a links button from another category can be pressed (not entirely ok).
+
 + add category to link
 + note that all ids of all components must be unique within a page

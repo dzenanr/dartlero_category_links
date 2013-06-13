@@ -1,5 +1,4 @@
 import 'dart:html';
-import 'dart:uri';
 
 import 'package:dartlero_category_links/dartlero_category_links.dart';
 import 'package:web_ui/web_ui.dart';
@@ -33,7 +32,7 @@ class LinkEdit extends WebComponent {
           links.remove(link);
           var link = new Link();
           link.code = code.value;
-          link.url = new Uri(webLink.value);
+          link.url = Uri.parse(webLink.value);
           link.description = description.value;
           if (links.add(link)) {
             message.text = 'added';
@@ -42,7 +41,7 @@ class LinkEdit extends WebComponent {
           }
         }
       } else {
-        link.url = new Uri(webLink.value);
+        link.url = Uri.parse(webLink.value);
         link.description = description.value;
       }
       links.order(); // even if code not changed, to see the updated list
