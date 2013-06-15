@@ -35,12 +35,16 @@ class CategoryTable extends WebComponent {
   }
 
   showLinks(category) {
-    showCategoryLinks = !showCategoryLinks;
-    if (showCategoryLinks) {
+    ButtonElement categoryLinks = query("#${category.code}");
+    if (!showCategoryLinks && categoryLinks.text == 'Show') {
       showCategoryLinks = true;
       this.category = category;
       category.links.internalList = toObservable(category.links.internalList);
       category.links.order();
+      categoryLinks.text = 'Hide';
+    } else if (showCategoryLinks && categoryLinks.text == 'Hide') {
+      showCategoryLinks = false;
+      categoryLinks.text = 'Show';
     }
   }
 }
