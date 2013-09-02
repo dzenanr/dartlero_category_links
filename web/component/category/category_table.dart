@@ -24,17 +24,17 @@ class CategoryTable extends WebComponent {
     }
   }
 
-  edit(category) {
+  edit(Category category) {
     showCategoryEdit = true;
     this.category = category;
   }
 
-  delete(category) {
+  delete(Category category) {
     categories.remove(category);
     showCategoryLinks = false;
   }
 
-  showLinks(category) {
+  showLinks(Category category) {
     ButtonElement categoryLinks = query("#${category.code}");
     if (!showCategoryLinks && categoryLinks.text == 'Show') {
       showCategoryLinks = true;

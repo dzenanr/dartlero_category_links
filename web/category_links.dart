@@ -1,5 +1,5 @@
 import 'dart:html';
-import 'dart:json';
+import 'dart:convert';
 
 import 'package:dartlero/dartlero.dart';
 import 'package:dartlero_category_links/dartlero_category_links.dart';
@@ -13,14 +13,14 @@ load() {
   if (json == null) {
     categoryLinksModel.init();
   } else {
-    categories.fromJson(parse(json));
+    categories.fromJson(JSON.decode(json));
   }
   categories.order();
 }
 
 save() {
   window.localStorage['dartlero_category_links'] =
-      stringify(categories.toJson());
+      JSON.encode(categories.toJson());
 }
 
 main() {
