@@ -1,5 +1,5 @@
 name: dartlero_category_links
-version: 0.0.8
+version: 1.0.0
 author: Dzenan Ridjanovic <dzenanr@gmail.com>
 description: "A model with 2 concepts that use dartlero. A web application with web\
   \ components that display categories and their links from the model. \r\nA category\
