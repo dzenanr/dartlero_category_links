@@ -2,3 +2,7 @@
 Repositories
 
 http://pub.dartlang.org/
+
+dartlero
+
+http://pub.dartlang.org/packages/dartlero

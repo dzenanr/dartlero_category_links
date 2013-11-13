@@ -8,7 +8,4 @@ description: "A model with 2 concepts that use dartlero. A web application with 
   \ when the application starts)."
 homepage: http://ondart.me/
 dependencies:
-  browser: any
-  web_ui: any
-  dartlero:
-    git: git://github.com/dzenanr/dartlero.git
+  dartlero: any
