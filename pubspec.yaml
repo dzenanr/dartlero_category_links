@@ -1,5 +1,5 @@
 name: dartlero_category_links
-version: 1.0.0
+version: 1.0.1
 author: Dzenan Ridjanovic <dzenanr@gmail.com>
 description: "A model with 2 concepts that use dartlero. A web application with web\
   \ components that display categories and their links from the model. \r\nA category\
@@ -7,5 +7,7 @@ description: "A model with 2 concepts that use dartlero. A web application with 
   \ and their links are tested. \r\nThe model may be saved (and loaded automatically\
   \ when the application starts)."
 homepage: http://ondart.me/
+environment:
+  sdk: '>=1.10.0 <2.0.0'
 dependencies:
-  dartlero: any
+  dartlero: ^1.0.5
